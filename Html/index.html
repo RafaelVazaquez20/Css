@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../Icons/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro.min.css" />
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-colors.min.css" />
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-rtl.min.css" />
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-icons.min.css" />
+    <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="height: 100%">
+        <div data-role="navview" data-compact="md" data-expand="lg" data-toggle="#pane-toggle" data-active-state="true">
+            <nav class="navview-pane bg-cobalt pos-fixed pos-top-left">
+                <br>
+                <br>
+                <button class="pull-button">
+                    <span class="mif-menu"></span>
+                </button>
+
+                <div class="suggest-box">
+                    <input type="text" data-role="input" data-clear-button="false" data-search-button="true" />
+                    <button class="holder">
+                        <span class="mif-search"></span>
+                    </button>
+                </div>
+
+                <ul class="navview-menu bg-cobalt dark fg-white">
+                    <li>
+                        <a href="#">
+                            <span class="icon"><span class="mif-home"></span></span>
+                            <span class="caption">Inicio</span>
+                        </a>
+                    </li>
+
+                    <li class="item-separator"></li>
+
+                    <li class="item-header">Main pages</li>
+
+                    <li>
+                        <a href="#">
+                            <span class="icon"><span class="mif-apps"></span></span>
+                            <span class="caption">Apps</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            <span class="icon"><span class="mif-gamepad"></span></span>
+                            <span class="caption">Games</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><span class="mif-envelop"></span></span>
+                            <span class="caption">Email</span>
+                            <div class="badges">
+                                <span class="badge inline">10</span>
+                                <span class="badge inline">5</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle">
+                            <span class="icon"><span class="mif-music"></span></span>
+                            <span class="caption">Music</span>
+                        </a>
+                        <ul class="navview-menu bg-blue" data-role="dropdown">
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><span class="mif-gamepad"></span></span>
+                                    <span class="caption">Games</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><span class="mif-film"></span></span>
+                                    <span class="caption">Movies</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="disabled">
+                        <a href="#">
+                            <span class="icon"><span class="mif-images"></span></span>
+                            <span class="caption">Images</span>
+                        </a>
+                    </li>
+
+                    <li class="item-separator"></li>
+
+                    <li>
+                        <a href="#">
+                            <span class="icon"><span class="mif-folder"></span></span>
+                            <span class="caption">Documents</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="navview-content pl-4-md pr-4-md">
+                <!--Inicio del menú-->
+                <ul class="h-menu pos-fixed pos-top-center mb-4-minus" style="z-index: 5; width: 100%;">
+                    <li><a href="#">Inicio</a></li>
+                    <li>
+                        <a href="#" class="dropdown-toggle">Productos</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li>
+                                <a href="#" class="dropdown-toggle">Para la casa</a>
+                                <ul class="d-menu" data-role="dropdown">
+                                    <li><a href="#">Línea Blanca</a></li>
+                                    <li><a href="#">Mueblería</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Electrodomesticos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Ropa</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Calzado</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Línea de ayuda <span class="mif-help"></span></a></li>
+                    <li><a href="#">Carrito <span class="mif-cart"></span></a></li>
+                </ul>
+                <!--Fin del menú-->
+
+                <!--Inicio del carrusel--->
+                <div data-role="carousel" data-height="21/9" data-cls-controls="fg-blue" data-cls-bullet="bullet-big"
+                    data-cls-bullet-on="bg-teal drop-shadow" data-cls-slides="rounded"
+                    data-control-next="<span class='mif-arrow-right'></span>"
+                    data-control-prev="<span class='mif-arrow-left'></span>" data-auto-start="true" data-period="3000"
+                    data-duration="1000">
+                    <div class="slide" data-cover="../Images/dawn-190055_1280.jpg"></div>
+                    <div class="slide" data-cover="../Images/dawn-190055_1280.jpg"></div>
+                    <div class="slide" data-cover="../Images/dawn-190055_1280.jpg"></div>
+                    <div class="slide" data-cover="../Images/dawn-190055_1280.jpg"></div>
+                </div>
+                <br>
+                <br>
+                <!--Fin del carrusel--->
+                <hr>
+                <h1 class="h1 text-center">Lorem Ipsum</h1>
+                <br>
+                <div class="container">
+                    <p class="text-just">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni magnam tempora alias aspernatur
+                        perferendis, beatae itaque, voluptatum aliquam hic voluptatibus porro fuga aperiam vel. Tempore
+                        iste nostrum magnam repudiandae vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Repudiandae optio dicta alias odio veritatis nesciunt eum, neque distinctio velit iusto officia
+                        porro nisi nemo magnam quia quidem numquam voluptas ad? Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Hic inventore quod perferendis consequuntur est aperiam sunt, iusto incidunt
+                        sit itaque dolor asperiores iure ut expedita aut neque ullam corporis! Minima! Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Quas quo non assumenda suscipit ipsa eius eos repudiandae
+                        nobis impedit deleniti, doloremque numquam sequi in voluptatem unde, dignissimos quibusdam neque
+                        dicta!
+                    </p>
+                </div>
+                <br>
+                <!--Inicio del carrusel--->
+                <div data-role="carousel" data-height="21/9" data-cls-controls="fg-blue" data-cls-bullet="bullet-big"
+                    data-cls-bullet-on="bg-teal drop-shadow" data-cls-slides="rounded"
+                    data-control-next="<span class='mif-arrow-right'></span>"
+                    data-control-prev="<span class='mif-arrow-left'></span>" data-auto-start="true" data-period="3000"
+                    data-duration="1000">
+                    <!--Slide 1-->
+                    <div class="slide">
+                        <div class="container text-center">
+                            <!--Imagen 1-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Imagen 2-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Imagen 3-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slide 2-->
+                    <div class="slide">
+                        <div class="container text-center">
+                            <!--Imagen 1-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Imagen 2-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Imagen 3-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Slide 3-->
+                    <div class="slide">
+                        <div class="container text-center">
+                            <!--Imagen 1-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Imagen 2-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Imagen 3-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Slide 4-->
+                    <div class="slide">
+                        <div class="container text-center">
+                            <!--Imagen 1-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Imagen 2-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Imagen 3-->
+                            <div class="card w-25 d-inline-block">
+                                <div class="card image-header">
+                                    <div class="card-header fg-white"
+                                        style="background-image: url(../Images/dawn-190055_1280.jpg)">
+                                        Journey To Mountains
+                                    </div>
+                                    <div class="card-content p-2">
+                                        <p class="fg-gray">Posted on January 21, 2015</p>
+                                        Quisque eget vestibulum nulla. Quisque quis dui quis ex
+                                        ultricies efficitur vitae non felis. Phasellus quis nibh
+                                        hendrerit...
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="button secondary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!--Fin del carrusel--->
+
+                <hr>
+                <h1 class="h1 text-center">Lorem Ipsum</h1>
+                <br>
+                <div class="container">
+                    <p class="text-just">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni magnam tempora alias aspernatur
+                        perferendis, beatae itaque, voluptatum aliquam hic voluptatibus porro fuga aperiam vel. Tempore
+                        iste nostrum magnam repudiandae vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Repudiandae optio dicta alias odio veritatis nesciunt eum, neque distinctio velit iusto officia
+                        porro nisi nemo magnam quia quidem numquam voluptas ad? Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Hic inventore quod perferendis consequuntur est aperiam sunt, iusto incidunt
+                        sit itaque dolor asperiores iure ut expedita aut neque ullam corporis! Minima! Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Quas quo non assumenda suscipit ipsa eius eos repudiandae
+                        nobis impedit deleniti, doloremque numquam sequi in voluptatem unde, dignissimos quibusdam neque
+                        dicta!
+                    </p>
+                </div>
+                <br>
+                <br><br>
+                <div data-role="dialog" id="demoDialog1">
+                    <div class="dialog-title">Use Windows location service?</div>
+                    <div class="dialog-content">
+                        Bassus abactors ducunt ad triticum. A fraternal form of manifestation is the bliss.
+                    </div>
+                    <div class="dialog-actions">
+                        <button class="button primary js-dialog-close">Agree</button>
+                        <button class="button js-dialog-close">Disagree</button>
+                    </div>
+                </div>
+                <button class="button primary" onclick="Metro.dialog.open('#demoDialog1')">Open dialog</button>
+                <br><br>
+                <div class=" bg-black fg-white p-3 text-just">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus nulla accusamus? Porro
+                    tenetur tempora illum, non facilis harum optio, ratione repellendus ad quibusdam quisquam ut facere
+                    cupiditate velit excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+                    expedita amet labore sunt sint architecto reiciendis optio illo voluptates ab eaque eius voluptatem
+                    quas, obcaecati magnam, esse quasi dignissimos tempore? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Natus hic at quia dolorem saepe rem, repudiandae, atque suscipit sunt, amet aut
+                    numquam tempora sint eveniet possimus corporis minus necessitatibus rerum.
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
